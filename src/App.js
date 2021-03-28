@@ -22,7 +22,6 @@ function App() {
       setNextURL(response.next);
       setPreviousURL(response.previous);
       setLoading(false);
-      console.log("git sucks");
     }
 
     fetchData();
