@@ -1,0 +1,14 @@
+.heptagon{
+    clip-path: url(#roundedPolygon)
+}
+
+.item-height{
+    min-height: 12rem;
+}
+
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
