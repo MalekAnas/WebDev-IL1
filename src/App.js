@@ -13,6 +13,8 @@ function App() {
 
   const endPointURL = 'https://pokeapi.co/api/v2/pokemon';
 
+
+
   useEffect(() => {
     async function fetchData() {
       let response = await getAllPokemons(endPointURL);
@@ -20,7 +22,7 @@ function App() {
       setNextURL(response.next);
       setPreviousURL(response.previous);
       setLoading(false);
-
+      console.log("git sucks");
     }
 
     fetchData();
